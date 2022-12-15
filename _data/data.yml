@@ -69,48 +69,84 @@ experiences:
             - Bullet point
               - Bullet point
 
-          Medical.
-            - Bullet point
-            - Bullet point
+          Tech lead at 醫材.
+            - 含上搞後台, 後端 api, 前端站, prerender
+            - facebook 登入
+            - k8s 建立(gke)
+            - prerender 建立(cloud run, docker)
+            - github ci (tests, api doc,github action)
+            - domain 代管 (Cloudflare)
+            - github deployment (k8s)
+              - docker image build (cloud build, gcr)
+            - 錯誤監控 ( sentry)
+            - 外部訊息發送 (mailgun)
+            - lead 2 members (前端 + 後端)
+            - 無到有三個月內上線
+            - 安全 (cors, rate limit by use + ip)
+            - 效能提升 5 倍 ( > 1秒 ＝> 200 毫秒, Cache Redis)
 
-          Industrial.
+          Apex.
             - Bullet point
             - Bullet point
-
-          Car.
-            - Bullet point
-            - Bullet point
+          Develop & Maintain Mercedes-Benz Pass.
+            - API develop
+            - Database Schema design
+            - Mock API server(mountebank <https://medium.com/@kimkapha/use-mountebank-to-create-your-own-mock-api-%E5%88%A9%E7%94%A8-mountebank-%E5%BB%BA%E7%AB%8B%E6%9B%BF%E8%BA%AB-api-6605dee54462>)
+            - Create AWS Alarms
 
           Tracking.
             - Bullet point
             - Bullet point
 
-          Health.
-            - Bullet point
-            - Bullet point
+          Ｅ-health system
+            - Develop & Maintain GPS Trackers System for the Elderly
+                - Build a local development environment
+                - Build continuous deployment
+                - Reduce usage of google place API
+                - Reduce system complexity
+                - TODO: graphQL (aws, elasticbeanstalk, codecommit, route 53, CodePipeline)
       - role: Principle Engineer
         time: 2015/06 -2019/09
         company: Yuan Shi Digital Technology
         details: |
 
-          E-Commerce.
-            - Bullet point
-            - Bullet point
+          Shopping Plus E-commerce.
+            - 子系統
+            - Developed Shoppingplus Membership feature
+                - DB schema design, unit testing, phpdoc, API doc
+            - Integrated FETnet service
+                - Integrated fetnet CSP service, parse CSP push log for memberhsip control.
+            - Developed Shoppingplus CouponPlus feature
+                - DB schema design, Preventing Race Condition, Unit test, phpdoc, API doc.
+            - Developed Shoppingplus Welfare feature
+                - Integrated Mayo welfare service, Mayo welfare API acceptance, build UAT environment.
 
-          CMS.
-            - Bullet point
-            - Bullet point
+          YPLAY mobile game introduction website (https://www.facebook.com/watch/?v=461144630728316).
+            - Build YPLAY Nginx + PHP-FPM system
+                - Use mongoDB database, redis cache, and php5 build backend architecture.
+            - Developed YPLAY frontend page
+                - Use Angular framework build frontend page.
+            - Developed YPLAY frontend deploy tool
+            - Use shell script write deploy tool which can upload file, backup, and restore.
       - role: Software Engineer - Senior Software Engineer,
         time: 2011/11 - 2015/03
         company: Openfind Information Technology
         details: |
-          MailGates.
-            - Bullet point
-            - Bullet point
+          MailGates (Mail audit and anti spam system).
+            - Developed ZIP encryption feature
+              -  Parse mail content, and detach attachment then encrypt it, enclose the encrypt attachment to original mai
+            - Developed PDF encryption feature
+                - Analysis mail content and transfer each part into pdf then enclose the pdf to a notification.
+            - Developed attachment to link feature
+                - Parse mail content, and detach attachment then encrypt it, after encrypt it, create a unique link which can download the encrypted attachment, then send a notification to include the link for the user.
+            - Developed anti spam feature
+                - integrate spf and neural network to find spam
+            - Solved issues.
 
-          P-Marker.
-            - Bullet point
-            - Bullet point
+           P-Marker (Sensitive Data Detection system).
+             - Develop & Maintain P-Marker Sensitive Data Detection system.
+             - Bullet point
+
 projects:
     title: Projects
     intro: >
@@ -118,10 +154,10 @@ projects:
     assignments:
       - title: Discord bot for english practice
         link: "#hook"
-        tagline: "You can add questions to the json."
+        tagline: "Admin can add questions to the json."
 
       - title: Gest book
-        link: "#"
+        link: "abandoned due to wedding was over"
         tagline: "Guest can leave messages on our wedding site."
 publications:
     title: Certifications

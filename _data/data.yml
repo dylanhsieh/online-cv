@@ -19,7 +19,6 @@ sidebar:
     website:  #do not add http://
     linkedin: www.linkedin.com/in/dylan-hsieh
     github: dylanhsieh
-    pdf: https://www.credential.net/a2e7f0f3-b5c8-4c23-9557-920b34057137
 
     languages:
       title: Languages
@@ -47,8 +46,6 @@ career-profile:
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
-
-      certicifacate: <a>https://abcde</a>
 education:
     title: Education
     info:
@@ -137,7 +134,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: PHP
+      - name: PHP (version => 5, 7, 8, framework => laravel, codeigniter, phalcon)
         level: 70%
 
       - name: C

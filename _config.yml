@@ -29,6 +29,7 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
+remote_theme: Ceramic
 
 # Development Settings
 port: 4000

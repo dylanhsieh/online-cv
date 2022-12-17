@@ -64,88 +64,113 @@ experiences:
         time: 2019/09 - Present
         company: LeadBest Consulting Group
         details: |
-          Car.
-            - Bullet point
-            - Bullet point
-              - Bullet point
+          Tech lead at Car marketing systems
+            -  Subsystems, Single sign-on, Points management subsystem, Payment Gateway subsystem
+              - Database Schema design (erd design, performance improvement)
+              - Code (php, laravel, unit test, coding style)
+              - Documentation (swagger)
 
-          Tech lead at 醫材.
-            - 含上搞後台, 後端 api, 前端站, prerender
-            - facebook 登入
-            - k8s 建立(gke)
-            - prerender 建立(cloud run, docker)
-            - github ci (tests, api doc,github action)
-            - domain 代管 (Cloudflare)
-            - github deployment (k8s)
-              - docker image build (cloud build, gcr)
-            - 錯誤監控 ( sentry)
-            - 外部訊息發送 (mailgun)
-            - lead 2 members (前端 + 後端)
-            - 無到有三個月內上線
-            - 安全 (cors, rate limit by use + ip)
-            - 效能提升 5 倍 ( > 1秒 ＝> 200 毫秒, Cache Redis)
+          Tech lead at Presurgmedia (a medical reference site).
+            - Content management system, API, Payment Gateway subsystem
+              - Infrastructure (cloudflare, gke, cloud sql, memorystore for redis)
+              - Database Schema design (erd design, performance improvement)
+              - Code (php, laravel, unit test, coding style)
+              - Documentation (swagger)
+              - Continuous integration (github action, docker)
+              - Deploy (github action, docker, k8s)
+            - website
+              - Infrastructure (dns, cloud run)
+            - Social login
+              - Facebook app management
+              - Facebook app integrate
+            - SEO
+              - Infrastructure (gcp cloud run, docker)
+              - Code (nodejs)
+            - Error tracking
+              - Sentry management
+              - Sentry integrate
+            - Notification
+              - Mailgun management
+              - Mailgun integrate
+            - Leadership
+              - a junior frontend engineer
+              - a junior backend engineer
+            - Using three months from scratch to launch
+            - Performance improvement
+              - API response time reduce, 1.5s to 0.6ms
 
-          Apex.
-            - Bullet point
-            - Bullet point
-          Develop & Maintain Mercedes-Benz Pass.
-            - API develop
-            - Database Schema design
-            - Mock API server(mountebank <https://medium.com/@kimkapha/use-mountebank-to-create-your-own-mock-api-%E5%88%A9%E7%94%A8-mountebank-%E5%BB%BA%E7%AB%8B%E6%9B%BF%E8%BA%AB-api-6605dee54462>)
-            - Create AWS Alarms
+          Backend Engineer at Car marketing systems.
+            - Content management system, API
+              - Code (php, laravel, unit test, coding style)
+              - Database Schema design (erd design, performance improvement)
+              - Documentation (swagger)
+            - Payment Gateway subsystem
+              - Integrate Taishin Pay Plus system
+              - Documentation (swagger)
+            - Performance and SMS usage tracking
+              - AWS Alarms management
 
-          Tracking.
-            - Bullet point
-            - Bullet point
+          Backend Engineer at GPS Tracking system.
+           - CRM, API
+              - Code (nodejs, express, php, CodeIgniter)
+              - Database Schema design ( erd design, performance improvement)
+           - Performance improvement
+              - Database tuning (create useful index)
+           - Cost down
+              - Avoid unnecessary google geo api calls (cached location info)
 
-          Ｅ-health system
-            - Develop & Maintain GPS Trackers System for the Elderly
-                - Build a local development environment
-                - Build continuous deployment
-                - Reduce usage of google place API
-                - Reduce system complexity
-                - TODO: graphQL (aws, elasticbeanstalk, codecommit, route 53, CodePipeline)
+          Backend Engineer at Ｅ-health system
+            - API
+              - Infrastructure (AWS Elastic Beanstalk, route 53)
+              - Database Schema design (erd design, performance improvement)
+              - Code (php, laravel, unit test, coding style)
+              - Documentation (swagger)
+              - Deploy (aws codecommit, CodePipeline)
+            - Leadership
+              - a junior backend engineer
+            - System complexity reduce
+              - Avoid too many languages and framework used (nodejs, express, php, CodeIgniter, laravel)
+              - Simplify the complexity of resource interaction (GraphQL)
       - role: Principle Engineer
         time: 2015/06 -2019/09
         company: Yuan Shi Digital Technology
         details: |
 
-          Shopping Plus E-commerce.
-            - 子系統
-            - Developed Shoppingplus Membership feature
-                - DB schema design, unit testing, phpdoc, API doc
-            - Integrated FETnet service
-                - Integrated fetnet CSP service, parse CSP push log for memberhsip control.
-            - Developed Shoppingplus CouponPlus feature
-                - DB schema design, Preventing Race Condition, Unit test, phpdoc, API doc.
-            - Developed Shoppingplus Welfare feature
-                - Integrated Mayo welfare service, Mayo welfare API acceptance, build UAT environment.
+         Backend Engineer at Shopping Plus E-commerce.
+            - API
+              - Database Schema design (erd design, performance improvement)
+              - Code (php, laravel, unit test, coding style)
+              - Documentation (swagger)
+            - Leadership
+              - two junior backend engineers
 
-          YPLAY mobile game introduction website (https://www.facebook.com/watch/?v=461144630728316).
-            - Build YPLAY Nginx + PHP-FPM system
-                - Use mongoDB database, redis cache, and php5 build backend architecture.
-            - Developed YPLAY frontend page
-                - Use Angular framework build frontend page.
-            - Developed YPLAY frontend deploy tool
-            - Use shell script write deploy tool which can upload file, backup, and restore.
+         Backend Engineer at YPLAY mobile game introduction website (https://www.facebook.com/watch/?v=461144630728316).
+            - Content management system, API
+              - Database Schema design (mongodb)
+              - Code (php)
+              - Deploy (bash script)
+            - Website
+              - Template and api interaction(Angular)
       - role: Software Engineer - Senior Software Engineer,
         time: 2011/11 - 2015/03
         company: Openfind Information Technology
         details: |
-          MailGates (Mail audit and anti spam system).
-            - Developed ZIP encryption feature
-              -  Parse mail content, and detach attachment then encrypt it, enclose the encrypt attachment to original mai
-            - Developed PDF encryption feature
-                - Analysis mail content and transfer each part into pdf then enclose the pdf to a notification.
-            - Developed attachment to link feature
-                - Parse mail content, and detach attachment then encrypt it, after encrypt it, create a unique link which can download the encrypted attachment, then send a notification to include the link for the user.
-            - Developed anti spam feature
-                - integrate spf and neural network to find spam
-            - Solved issues.
+          Fullstack Engineer at MailGates (Mail audit and anti spam system).
+            - Attachments encryption, pdf Converting, Attachments Cloudlization
+              - Library (c)
+              - CGI (c)
+              - Daemon (c)
+              - Web (Jquery)
+            - Anti spam, Audit
+              - Library (c)
+              - CGI (c)
+              - Daemon (c)
+              - Web (Jquery)
 
-           P-Marker (Sensitive Data Detection system).
-             - Develop & Maintain P-Marker Sensitive Data Detection system.
-             - Bullet point
+          Fullstack Engineer at P-Marker (Sensitive Data Detection system).
+              - Library (c)
+              - Report (php)
+              - Web (Jquery)
 
 projects:
     title: Projects
@@ -170,7 +195,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: PHP (version => 5, 7, 8, framework => laravel, codeigniter, phalcon)
+      - name: PHP
         level: 70%
 
       - name: C

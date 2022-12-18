@@ -202,9 +202,9 @@ projects:
         link: "#hook"
         tagline: "Admin can add questions to the json."
 
-      - title: Gest book
+      - title: Leetcode practice
         link: "#"
-        tagline: "Guest can leave messages on our wedding site, terminated due to the end of the wedding."
+        tagline: "Share my thoughts and code on solving a problem on LeetCode."
 publications:
     title: Certifications
     intro: |

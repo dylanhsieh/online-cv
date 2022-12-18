@@ -203,7 +203,7 @@ projects:
         tagline: "Admin can add questions to the json."
 
       - title: Leetcode practice
-        link: "#"
+        link: "https://github.com/dylanhsieh/golang-leetcode-practices.git"
         tagline: "Share my thoughts and code on solving a problem on LeetCode."
 publications:
     title: Certifications

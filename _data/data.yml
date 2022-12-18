@@ -196,7 +196,7 @@ projects:
       Side projects.
     assignments:
       - title: Discord bot for english practice
-        link: "#hook"
+        link: "https://github.com/dylanhsieh/golang-discord-bot"
         tagline: "Admin can add questions to the json."
 
       - title: Leetcode practice

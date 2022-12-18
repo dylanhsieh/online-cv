@@ -71,7 +71,7 @@ experiences:
         company: LeadBest Consulting Group
         details: |
           Tech lead at Car marketing systems
-            -  Subsystems, Single sign-on, Points management subsystem, Payment Gateway subsystem
+            -  Single sign-on subsystem, Points management subsystem, Payment Gateway subsystem
               - Database Schema design (erd design, performance improvement)
               - Code (php, laravel, unit test, coding style)
               - Documentation (swagger)

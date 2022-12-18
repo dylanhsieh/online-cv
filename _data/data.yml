@@ -7,7 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Dylan Hsieh
+    name: Dylan Hsieh (謝政孝)
     tagline: Backend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -15,10 +15,8 @@ sidebar:
     email: dylan.xie.tw@gmail.com
     phone: 0911481216
     timezone: Asia/Taipei Timezone
-    citizenship:
-    website:  #do not add http://
     linkedin: www.linkedin.com/in/dylan-hsieh
-    github: dylanhsieh
+    github: https://github.com/dylanhsieh
 
     languages:
       title: Languages
@@ -41,11 +39,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I am Dylan Hsieh, educated from at ....
+      First job at op ....
+      Second job at yunshi ...
+      Thris job at LCG
+      I can
+      I make side project recently for my child
+      Thanks for the reading.
 education:
     title: Education
     info:
@@ -69,6 +69,8 @@ experiences:
               - Database Schema design (erd design, performance improvement)
               - Code (php, laravel, unit test, coding style)
               - Documentation (swagger)
+            - Communication
+              - communicate with client, outside vendor
 
           Tech lead at Presurgmedia (a medical reference site).
             - Content management system, API, Payment Gateway subsystem
@@ -96,6 +98,8 @@ experiences:
               - a junior frontend engineer
               - a junior backend engineer
             - Using three months from scratch to launch
+            - Communication
+              - communicate with client, outside vendor
             - Performance improvement
               - API response time reduce, 1.5s to 0.6ms
 
@@ -109,14 +113,18 @@ experiences:
               - Documentation (swagger)
             - Performance and SMS usage tracking
               - AWS Alarms management
+            - Communication
+              - communicate with client, outside vendor
 
           Backend Engineer at GPS Tracking system.
-           - CRM, API
+            - CRM, API
               - Code (nodejs, express, php, CodeIgniter)
               - Database Schema design ( erd design, performance improvement)
-           - Performance improvement
+            - Communication
+              - communicate with client, outside vendor
+            - Performance improvement
               - Database tuning (create useful index)
-           - Cost down
+            - Cost down
               - Avoid unnecessary google geo api calls (cached location info)
 
           Backend Engineer at Ｅ-health system
@@ -128,6 +136,8 @@ experiences:
               - Deploy (aws codecommit, CodePipeline)
             - Leadership
               - a junior backend engineer
+            - Communication
+              - communicate with client, outside vendor
             - System complexity reduce
               - Avoid too many languages and framework used (nodejs, express, php, CodeIgniter, laravel)
               - Simplify the complexity of resource interaction (GraphQL)
@@ -141,6 +151,8 @@ experiences:
               - Database Schema design (erd design, performance improvement)
               - Code (php, laravel, unit test, coding style)
               - Documentation (swagger)
+            - Communication
+              - communicate with marketing, outside vendor
             - Leadership
               - two junior backend engineers
 

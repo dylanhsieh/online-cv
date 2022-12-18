@@ -39,12 +39,21 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am Dylan Hsieh, educated from at ....
-      First job at op ....
-      Second job at yunshi ...
-      Thris job at LCG
-      I can
-      I make side project recently for my child
+      I am a master's graduate of the Institute of Computer Science and Information Engineering at Taiwan Normal University,
+
+      my first job was at Openfind Information Technology, where I gained solid programming skills and acquired basic knowledge about Linux,
+
+      and the second job was at Yuan Shi Digital Technology, where I gained skills in web development and started to have experience leading a team,
+
+      currently, I am working at LeadBest Consulting Group,
+      where I have been exposed to more work related to infra setup and have gained more experience leading a team as well as the ability to communicate with cross-functional teams.
+
+      If there are still areas that are insufficient, I will prepare for certification exams to strengthen my knowledge.
+      I am currently preparing for the Kubernetes exam.
+
+      In my free time,
+      I develop projects related to English learning with the goal of helping my daughter learn English in the future.
+
       Thanks for the reading.
 education:
     title: Education
@@ -194,8 +203,8 @@ projects:
         tagline: "Admin can add questions to the json."
 
       - title: Gest book
-        link: "abandoned due to wedding was over"
-        tagline: "Guest can leave messages on our wedding site."
+        link: "#"
+        tagline: "Guest can leave messages on our wedding site, terminated due to the end of the wedding."
 publications:
     title: Certifications
     intro: |

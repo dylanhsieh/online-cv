@@ -79,7 +79,7 @@ experiences:
               - communicate with client, outside vendor
 
           Tech lead at Presurgmedia (a medical reference site).
-            - Content management system, API, Payment Gateway subsystem
+            - Content management system, API
               - Infrastructure (cloudflare, gke, cloud sql, memorystore for redis)
               - Database Schema design (erd design, performance improvement)
               - Code (php, laravel, unit test, coding style)
@@ -110,7 +110,7 @@ experiences:
               - API response time reduce, 1.5s to 0.6ms
 
           Backend Engineer at Car marketing systems.
-            - Content management system, API
+            - Content management system, API, Payment Gateway subsystem
               - Code (php, laravel, unit test, coding style)
               - Database Schema design (erd design, performance improvement)
               - Documentation (swagger)

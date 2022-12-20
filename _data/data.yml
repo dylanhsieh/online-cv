@@ -214,22 +214,22 @@ skills:
 
     toolset:
       - name: PHP
-        level: 70%
+        level: 80%
 
       - name: C
-        level: 30%
+        level: 50%
 
       - name: Golang
-        level: 10%
+        level: 20%
 
       - name: Bash
-        level: 10%
+        level: 20%
 
       - name: Python
         level: 5%
 
       - name: Javascript & jQuery
-        level: 15%
+        level: 25%
 
       - name: vue
         level: 1%
@@ -247,7 +247,7 @@ skills:
         level: 5%
 
       - name: Docker
-        level: 20%
+        level: 30%
 
       - name: K8s
-        level: 10%
+        level: 20%
